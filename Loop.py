@@ -1,7 +1,7 @@
 from turtle import *
 delay(0)
 for steps in range(100):
-    for c in ( 'gray' , 'blue' , 'black' ,):
+    for c in ( 'red' , 'orange' , 'yellow'):
         color(c)
         forward(steps)
         right(30)
